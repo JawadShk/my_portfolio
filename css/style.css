@@ -5,7 +5,11 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #20172e !important;
+    /* background-color: #20172e !important; */
+    background-color: #13101a !important;
+    /* background-color: #1a1429 !important; */
+    overflow-x: hidden;
+    position: relative;
 }
 .nav-button{
     background-color: #613381;
@@ -46,4 +50,36 @@ span{
 }
 .footer{
     background-color: black !important;
+    /* position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+}
+.about-para{
+    font-size: 18px;
+    word-spacing: 3px;
+}
+.hidden{
+    /* display: none; */
+}
+.about{
+    margin-top: 150px;
+    background-color: #13101a;
+}
+.quote h6, small{
+    color: #9b7eac;
+}
+.skill-item{
+    border: 1.7px solid rgba(200,137,230,.637)!important;
+    border-radius: 5px!important;
+    box-shadow: 4px 5px 4px 3px rgba(89,4,168,.137)!important;
+    display: table!important;
+    font-size: 4.5em!important;
+    margin: 15px!important;
+    opacity: .93!important;
+    overflow: hidden!important;
+    padding: 10px!important;
+    text-align: center!important;
+    transition: all .4s ease 0s!important;
+    vertical-align: middle!important;
 }
