@@ -83,3 +83,30 @@ span{
     transition: all .4s ease 0s!important;
     vertical-align: middle!important;
 }
+.card-body {
+    word-wrap: break-word;
+    background-clip: border-box;
+    /* background-color: #fff; */
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    position: relative;
+}
+.project-card-view {
+    background-color: transparent!important;
+    box-shadow: 0 4px 10px 3px rgba(119,53,136,.459)!important;
+    color: #fff!important;
+    height: 100%!important;
+    opacity: .9!important;
+    transition: all .5s ease 0s!important;
+}
+.card-body p{
+    text-align: justify;
+    padding: 15px;
+}
+.cv-btn{
+    background-color: #613381 !important;
+    color: #fff !important;
+}
