@@ -2,6 +2,10 @@
     --image-gradient: linear-gradient(to bottom left,hsla(0,3%,6%,.678),rgba(12,10,22,.863));
     --imp-text-color: #c770f0;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     margin: 0;
     padding: 0;
@@ -78,7 +82,8 @@ span{
     background-image: var(--image-gradient),url(../images/home-bg.dc52d5d40a40b13154b0.jpg);
     background-repeat: no-repeat;
     /* padding-top: 30px; */
-    position: relative;
+    /* position: relative;
+    top: 0; */
 }
 .home-cred{
     background-image: var(--image-gradient),url(../images/home-bg.dc52d5d40a40b13154b0.jpg);
@@ -188,3 +193,6 @@ span{
     border-radius: 10px;
     height: 70%;
 }
+/* .fixed-top{
+  top: 0;  
+} */
