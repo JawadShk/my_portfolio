@@ -11,7 +11,7 @@
 </head>
 <body class="text-white">
     <!-- navbar start -->
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top">
             <div class="container">
                     <a class="navbar-brand" href="#">Js.</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +44,7 @@
     <section class="home hidden">
         <div class="container">
             <div class="row align-items-center" style="height: 87vh;">
-                <div class="col-lg-5 col-12">
+                <div class="col-lg-5 col-12 home-div">
                         <h2>Hi There! <span class="wave">👋🏻</span></h2>
                         <h2>I AM <span>JAWAD SHAIKH</span></h2>
                         <h2 class="mt-5"><span class="typing"></span></h2>
@@ -57,7 +57,7 @@
             <div class="container mt-5">
                 <div class="row">
                     <div class="col-lg-8">
-                        <h1 class="text-center">LET ME <span>INTRODUCE</span> MYSELF</h1>
+                        <h1 class="text-center introduction">LET ME <span>INTRODUCE</span> MYSELF</h1>
                         <div class="mt-5 about-me">
                             <p>I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️</p> 
                             <p>I am fluent in classics like <span> Jquery, Javascript and Python.</span></p> 
@@ -65,12 +65,12 @@
                         </div>
                     </div>
                     <div class="col-lg-3 offset-lg-1">
-                        <img src="images/avatar.5852f40fbb38aa284829fa3fb7722225.svg" alt="avtar" class="img-fluid mt-4">
+                        <img src="images/avatar.5852f40fbb38aa284829fa3fb7722225.svg" alt="avtar" class="img-fluid avtar-img mt-4">
                     </div>
                 </div>
             </div>    
             <div class="row mt-4 mb-4 pb-5">
-                <div class="col-lg-3 text-center w-100 mt-5">
+                <div class="col-lg-3 text-center w-100 mt-5 social">
                     <h2>FIND ME ON</h2>
                     <p>Feel free to <span>contact</span> with me</p>
                     <div class="icon mb-3 pb-3">
@@ -89,30 +89,38 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">
-                        <h3 class="mx-5 px-5 mb-5">Know Who <span>I'M</span></h3>
+                        <h2 class="mx-5 px-5">Know Who <span>I'M</span></h2>
                         <div class="about-para">
-                            <p>Hi Everyone, I am <span>Jawad Shaikh</span> from <span> Mumbai, India </span>. <br>
-                                I have completed my bachelor's in Information and Technology.
-                        </p>
-                        <p>
-                            Apart from coding, some other activities that I love to do!
+                            <blockquote class="blockquote mb-0">
+                                <p style="text-align: justify;"><br>Hi Everyone, I am <span>Jawad Shaikh</span> from <span> Mumbai, India </span>.
+                                <br>    I have Completed My Bachelor's in Information and Technology. <br> <br>
+                                    Apart from coding, some other activities that I love to do!</p>
+                                    <ul class="mx-5 mt-3 mb-4 list-unstyled">
+                                        <li><i class="fa-solid fa-hand-point-right mx-2"></i>Cricket</li>
+                                        <li><i class="fa-solid fa-hand-point-right mx-2"></i>Travelling</li>
+                                    </ul>
+                                    <p class ="mx-5 quote" style="color: rgb(155, 126, 172);" class="text-end">"Strive to build things that make a difference!" <br><small class="mx-5">--jawad shaikh</small></p><br>
+                            </blockquote>
+                            <!-- <p>Hi Everyone, I am <span>Jawad Shaikh</span> from <span> Mumbai, India </span>. <br>
+                                I have Completed My Bachelor's in Information and Technology. <br>
+                            </p>
+                            <p>Apart from coding, some other activities that I love to do!</p>
                             <ul>
                                 <li>Playing Games</li>
                                 <li>Travelling</li>
-                            </ul>
-                        </p>
-                        <div class="quote text-center mt-4 mt-4 mb-4">
+                            </ul> -->
+                        <!-- <div class="quote text-center mt-4 mt-4 mb-4">
                             <h6>"Strive to build things that make a difference!"</h6>
                             <small>--- jawad shaikh </small>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
-                <div class="col-lg-5 mt-5">
+                <div class="col-lg-5 mt-5 mb-5">
                     <img src="images/about.aee0f771fbfc1e7b8fa8.png" alt="about" class="img-fluid">
                 </div>
             </div>
             <div class="row justify-content-center"> 
-                <h2 class="text-center mt-5 mb-3">Professional <span>Skillset</span></h2>
+                <h2 class="text-center mt-5 mb-4">Professional <span>Skillset</span></h2>
                 <div class="col-lg-2 col-5 col-md-3 skill-item text-center">
                     <i class="fa-brands fa-html5"></i>
                 </div>
@@ -142,7 +150,7 @@
                 </div>
             </div> 
             <div class="row justify-content-center">
-                <h2 class="text-center mt-5 mb-3"><span>Tools </span>I use</h2>
+                <h2 class="text-center mt-5 mb-4"><span>Tools </span>I use</h2>
                 <div class="col-lg-2 col-5 col-md-3 skill-item text-center">
                     <i class="fa-brands fa-git-alt"></i>
                 </div>
@@ -160,7 +168,7 @@
                 </div>
             </div>
         </div>
-        <div class="row mx-3 text-center">
+        <div class="row mx-3 mt-5 mb-4 text-center">
             <h2 style="margin-top :28px; font-weight: 900;">Days I <span>Code</span></h2>
             <div class="col-lg-12 text-center mt-4 mb-4">
                 <img src="images/git.png" alt="contribution" class="img-fluid">
@@ -176,7 +184,7 @@
                 <h1>My Recent <span>Works</span></h1>
                 <p>Here are a few preojects I've worked on recently</p>
                 <div class="col-lg-4  mt-4 mb-4">
-                    <div class="card-body" style="width: 22rem;">
+                    <div class="card-body" style="width: 23rem;">
                         <div class="project-card-view">
                             <img src="images/stackweb.png" class="card-img-top img-fluid mt-3 mb-3" alt="...">
                             <p>Stack web, Responsive landing page made using HTML, CSS, Bootstrap</p>
@@ -188,7 +196,7 @@
                 </div>
             </div>
             <div class="col-lg-4  mt-4 mb-4">
-                <div class="card-body" style="width: 22rem;">
+                <div class="card-body" style="width: 23rem;">
                     <div class="project-card-view">
                         <img src="images/spice.png" class="card-img-top img-fluid mt-4 mb-3" alt="...">
                         <p>E-commerce landing page,made Responsive using HTML, CSS, Bootstrap</p>
@@ -200,7 +208,7 @@
                 </div>
             </div>
             <div class="col-lg-4 mt-4 mb-4">
-                <div class="card-body" style="width: 22rem;">
+                <div class="card-body" style="width: 23rem;">
                     <div class="project-card-view">
                         <img src="images/arkstudio.png" class="card-img-top img-fluid mt-3 mb-3" alt="...">
                         <p>Ark studio landing Page made using HTML, CSS, Botstrap</p>
@@ -212,7 +220,7 @@
                 </div>
             </div>
             <div class="col-lg-4 mt-4 mb-4">
-                <div class="card-body" style="width: 22rem;">
+                <div class="card-body" style="width: 23rem;">
                     <div class="project-card-view">
                         <img src="images/comforty.png" class="card-img-top img-fluid mt-3 mb-3" alt="...">
                         <p>Comforty an e-commerce landing page made using HTML,CSS,Bootstrap</p>
@@ -224,7 +232,7 @@
                 </div>
             </div>
             <div class="col-lg-4 mt-4 mb-4">
-                <div class="card-body" style="width: 22rem;">
+                <div class="card-body" style="width: 23rem;">
                     <div class="project-card-view">
                         <img src="images/stopwatch.png" class="card-img-top img-fluid mt-3 mb-3" alt="...">
                         <p>A simple stopwatch implemented using HTML, CSS, Bootstrap 5 and JavaScript.</p>
@@ -236,7 +244,7 @@
                 </div>
             </div>
             <div class="col-lg-4 mt-4 mb-4">
-                <div class="card-body" style="width: 22rem;">
+                <div class="card-body" style="width: 23rem;">
                     <div class="project-card-view">
                         <img src="images/yoga_landing.png" class="card-img-top img-fluid mt-3 mb-3" alt="...">
                         <p>Yoga landing Page completely Responsive Made Using HTML, CSS, Bootstrap</p>

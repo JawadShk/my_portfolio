@@ -109,9 +109,9 @@ span{
     margin-top: 150px;
     background-color: #13101a;
 }
-.quote h6, small{
+/* .quote h6, small{
     color: #9b7eac;
-}
+} */
 .skill-item{
     border: 1.7px solid rgba(200,137,230,.637)!important;
     border-radius: 5px!important;
@@ -195,3 +195,73 @@ span{
 /* .fixed-top{
   top: 0;  
 } */
+@media only screen and (max-width: 768px){
+    .avtar-img{
+        margin-left: 75px;
+    }
+    .about {
+        margin-top: 0px;
+    }
+    .introduction{
+        font-size: 45px;
+        text-align: center;
+        margin-bottom: 20px;
+        /* margin-top: 290px; */
+    }
+    .about-me p{
+        font-size: 20px;
+        margin-left: 8px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    .about-para p{
+        /* text-align: justify; */
+        margin: 0 30px;
+        /* font-size: 22px; */
+        /* line-height: 1; */
+        /* font-weight: 400; */
+        /* word-spacing: 5px; */
+        /* letter-spacing: 2px; */
+        /* margin-bottom: 10px; */
+    }
+    .home{
+        margin-top: 150px;
+        background-image: none;
+    }
+    .home-div h2{
+        font-size: 34px;
+        margin-left: 20px;
+    }
+    .typing{
+        font-size: 25px;
+    }
+    .social h2{
+        font-size: 40px;
+    }
+    .social p{
+        font-size: 20px;
+    }
+    .about h2{
+        font-size: 34px;
+        text-align: center;
+        margin: 18px 0!important;
+    }
+    .quote{
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        margin: 0px !important;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .avtar-img{
+        margin-left: 220px;
+    }   
+    .nav-button i{
+        margin: 0 3px !important;
+    }
+    .about {
+        margin-top: 0px !important;
+    }
+}
