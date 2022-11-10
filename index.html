@@ -10,26 +10,29 @@
     <title>my_portfolio</title>
 </head>
 <body class="text-white">
-    <!-- navbar start -->
-        <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+    <!-- !navbar start -->
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top" id="navbar">
             <div class="container">
                     <a class="navbar-brand" href="#">Js.</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <!-- <span class="navbar-toggler-icon"></span> -->
+                        <span class="navbar-toggler-icon">   
+                            <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+                        </span>
                     </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0 mx-auto w-100 justify-content-end">
                         <li class="nav-item mx-3">
-                            <a class="nav-link active" aria-current="page" href=""><i class="fa-solid fa-house-user mx-1"></i></i>Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home"><i class="fa-solid fa-house-user mx-1"></i></i>Home</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link active" aria-current="page" href=""><i class="fa-regular fa-user mx-1"></i>About</a>
+                            <a class="nav-link active" aria-current="page" href="#about"><i class="fa-regular fa-user mx-1"></i>About</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link active" aria-current="page" href=""><i class="fa-solid fa-laptop-code mx-1"></i>Projects</a>
+                            <a class="nav-link active" aria-current="page" href="#projects"><i class="fa-solid fa-laptop-code mx-1"></i>Projects</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link active" aria-current="page" href=""><i class="fa-solid fa-file-lines mx-1"></i>Resume</a>
+                            <a class="nav-link active" aria-current="page" href="#resume"><i class="fa-solid fa-file-lines mx-1"></i>Resume</a>
                         </li>
                         <li class="mx-3">
                            <a href="https://github.com/JawadShk/my_portfolio" target="_blank"><button class="nav-button rounded p-2"><i class="fa-sharp fa-solid fa-code-branch mx-2"></i><i class="fa-solid fa-star mx-2"></i></button></a> 
@@ -38,23 +41,22 @@
                 </div>
             </div>
         </nav>
-    <!-- navbar end  -->
+    <!-- !navbar end  -->
     
-    <!-- home start  -->
+    <!-- !home start  -->
     <section class="home hidden">
         <div class="container">
             <div class="row align-items-center" style="height: 87vh;">
                 <div class="col-lg-5 col-12 home-div">
-                        <h2>Hi There! <span class="wave">👋🏻</span></h2>
-                        <h2>I AM <span>JAWAD SHAIKH</span></h2>
-                        <h2 class="mt-5"><span class="typing"></span></h2>
-                    </div>
-                    <div class="col-lg-5 offset-lg-2 col-12">
-                        <img src="images/home-main.541f8179af8209ce03ccf2178fe62dbf.svg" alt="home" class="img-fluid home-img">
-                    </div>
+                    <h2>Hi There! <span class="wave">👋🏻</span></h2>
+                    <h2>I AM <span>JAWAD SHAIKH</span></h2>
+                    <h2 class="mt-5"><span class="typing"></span></h2>
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-12">
+                    <img src="images/home-main.541f8179af8209ce03ccf2178fe62dbf.svg" alt="home" class="img-fluid home-img">
                 </div>
             </div>    
-            <div class="container mt-5">
+            <!-- <div class="container mt-5"> -->
                 <div class="row">
                     <div class="col-lg-8">
                         <h1 class="text-center introduction">LET ME <span>INTRODUCE</span> MYSELF</h1>
@@ -68,53 +70,42 @@
                         <img src="images/avatar.5852f40fbb38aa284829fa3fb7722225.svg" alt="avtar" class="img-fluid avtar-img mt-4">
                     </div>
                 </div>
-            </div>    
+            <!-- </div>     -->
             <div class="row mt-4 mb-4 pb-5">
                 <div class="col-lg-3 text-center w-100 mt-5 social">
                     <h2>FIND ME ON</h2>
                     <p>Feel free to <span>contact</span> with me</p>
                     <div class="icon mb-3 pb-3">
-                        <i class="fa-brands fa-github"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
-                        <i class="fa-brands fa-instagram"></i>
+                       <a href="https://github.com/JawadShk" target="_blank"><i class="fa-brands fa-github"></i></a>
+                       <a href="https://api.whatsapp.com/send?phone=8850838058" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>  
+                       <a href="https://www.linkedin.com/in/jawad-shaikh-4033551b7/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a> 
+                       <a href="https://www.instagram.com/jawad___shk/" target="_blank"><i class="fa-brands fa-instagram"></i></a> 
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- home end  -->
+        </div>
+    </section>
+        <!-- !home end  -->
         
-        <!-- about start -->
-        <section class="about hidden">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7">
-                        <h2 class="mx-5 px-5">Know Who <span>I'M</span></h2>
+        <!-- !about start -->
+    <section class="about hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <h2 class="mx-5 px-5">Know Who <span>I'M</span></h2>
                         <div class="about-para">
                             <blockquote class="blockquote mb-0">
                                 <p style="text-align: justify;"><br>Hi Everyone, I am <span>Jawad Shaikh</span> from <span> Mumbai, India </span>.
                                 <br>    I have Completed My Bachelor's in Information and Technology. <br> <br>
-                                    Apart from coding, some other activities that I love to do!</p>
-                                    <ul class="mx-5 mt-3 mb-4 list-unstyled">
-                                        <li><i class="fa-solid fa-hand-point-right mx-2"></i>Cricket</li>
-                                        <li><i class="fa-solid fa-hand-point-right mx-2"></i>Travelling</li>
-                                    </ul>
-                                    <p class ="mx-5 quote" style="color: rgb(155, 126, 172);" class="text-end">"Strive to build things that make a difference!" <br><small class="mx-5">--jawad shaikh</small></p><br>
+                                Apart from coding, some other activities that I love to do!</p>
+                                <ul class="mx-5 mt-3 mb-4 list-unstyled">
+                                    <li><i class="fa-solid fa-hand-point-right mx-2"></i>Cricket</li>
+                                    <li><i class="fa-solid fa-hand-point-right mx-2"></i>Travelling</li>
+                                </ul>
+                                <p class ="mx-5 quote" style="color: rgb(155, 126, 172);" class="text-end">"Strive to build things that make a difference!" <br><small class="mx-5">--jawad shaikh</small></p><br>
                             </blockquote>
-                            <!-- <p>Hi Everyone, I am <span>Jawad Shaikh</span> from <span> Mumbai, India </span>. <br>
-                                I have Completed My Bachelor's in Information and Technology. <br>
-                            </p>
-                            <p>Apart from coding, some other activities that I love to do!</p>
-                            <ul>
-                                <li>Playing Games</li>
-                                <li>Travelling</li>
-                            </ul> -->
-                        <!-- <div class="quote text-center mt-4 mt-4 mb-4">
-                            <h6>"Strive to build things that make a difference!"</h6>
-                            <small>--- jawad shaikh </small>
-                        </div> -->
+                        </div>
                     </div>
-                </div>
                 <div class="col-lg-5 mt-5 mb-5">
                     <img src="images/about.aee0f771fbfc1e7b8fa8.png" alt="about" class="img-fluid">
                 </div>
@@ -167,27 +158,27 @@
                     <h2 style="margin-top :28px; font-weight: 900;">Canva</h2>
                 </div>
             </div>
-        </div>
-        <div class="row mx-3 mt-5 mb-4 text-center">
-            <h2 style="margin-top :28px; font-weight: 900;">Days I <span>Code</span></h2>
-            <div class="col-lg-12 text-center mt-4 mb-4">
-                <img src="images/git.png" alt="contribution" class="img-fluid">
+            <div class="row mx-3 mt-5 mb-4 text-center">
+                <h2 style="margin-top :28px; font-weight: 900;">Days I <span>Code</span></h2>
+                <div class="col-lg-12 text-center mt-4 mb-4">
+                    <img src="images/git.png" alt="contribution" class="img-fluid">
+                </div>
             </div>
         </div>
-      </section>
-      <!-- about end  -->
+    </section>
+      <!-- !about end  -->
 
-      <!-- projects start  -->
-      <section class="projects">
-        <div class="container">
-            <div class="row mt-5 mb-4 mt-4 mb-4 text-cente justify-content-center text-center">
-                <h1>My Recent <span>Works</span></h1>
-                <p>Here are a few preojects I've worked on recently</p>
-                <div class="col-lg-4 col-md-6 mt-4 mb-4">
-                    <div class="card-body mx-4">
-                        <div class="project-card-view">
-                            <img src="images/stackweb.png" class="card-img-top img-fluid mt-3 mb-3" alt="...">
-                            <p>Stack web, Responsive landing page made using HTML, CSS, Bootstrap</p>
+      <!-- !projects start  -->
+<section class="projects">
+    <div class="container">
+        <div class="row mt-5 mb-4 mt-4 mb-4 text-cente justify-content-center text-center">
+            <h1>My Recent <span>Works</span></h1>
+            <p>Here are a few preojects I've worked on recently</p>
+            <div class="col-lg-4 col-md-6 mt-4 mb-4">
+                <div class="card-body mx-4">
+                    <div class="project-card-view">
+                        <img src="images/stackweb.png" class="card-img-top img-fluid mt-3 mb-3" alt="...">
+                        <p>Stack web, Responsive landing page made using HTML, CSS, Bootstrap</p>
                         <div class="project-btn mb-4">
                             <a href="https://github.com/JawadShk/stack-web" target="_blank"><button type="button" class="btn cv-btn mx-2"><i class="fa-brands fa-github mx-2"></i>GitHub</button></a>
                             <a href="https://jawadshk.github.io/stack-web/" target="_blank"><button type="button" class="btn cv-btn mx-2"><i class="fa-sharp fa-solid fa-eye mx-2"></i>Demo</button></a>
@@ -198,12 +189,12 @@
             <div class="col-lg-4 col-md-6 mt-4 mb-4">
                 <div class="card-body mx-4">
                     <div class="project-card-view">
-                        <img src="images/spice.png" class="card-img-top img-fluid mt-4 mb-3" alt="...">
-                        <p>E-commerce landing page,made Responsive using HTML, CSS, Bootstrap</p>
+                        <img src="images/spice.png" class="card-img-top img-fluid mt-3 mb-3" alt="...">
+                        <p>Stack web, Responsive landing page made using HTML, CSS, Bootstrap</p>
                         <div class="project-btn mb-4">
-                            <a href="https://github.com/JawadShk/e-commerce" target="_blank"><button type="button" class="btn cv-btn mx-2 mb-1"><i class="fa-brands fa-github mx-2"></i>GitHub</button></a>
-                            <a href="https://jawadshk.github.io/e-commerce/" target="_blank"><button type="button" class="btn cv-btn mx-2 mb-1"><i class="fa-sharp fa-solid fa-eye mx-2"></i>Demo</button></a>
-                         </div>
+                            <a href="https://github.com/JawadShk/e-commerce" target="_blank"><button type="button" class="btn cv-btn mx-2"><i class="fa-brands fa-github mx-2"></i>GitHub</button></a>
+                            <a href="https://jawadshk.github.io/e-commerce/" target="_blank"><button type="button" class="btn cv-btn mx-2"><i class="fa-sharp fa-solid fa-eye mx-2"></i>Demo</button></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -211,11 +202,11 @@
                 <div class="card-body mx-4">
                     <div class="project-card-view">
                         <img src="images/arkstudio.png" class="card-img-top img-fluid mt-3 mb-3" alt="...">
-                        <p>Ark studio landing Page made using HTML, CSS, Bootstrap</p>
+                        <p>Stack web, Responsive landing page made using HTML, CSS, Bootstrap</p>
                         <div class="project-btn mb-4">
-                            <a href="https://github.com/JawadShk/ark-studio" target="_blank"><button type="button" class="btn cv-btn mx-2 mb-1"><i class="fa-brands fa-github mx-2"></i>GitHub</button></a>
-                            <a href="https://jawadshk.github.io/ark-studio/" target="_blank"><button type="button" class="btn cv-btn mx-2 mb-1"><i class="fa-sharp fa-solid fa-eye mx-2"></i>Demo</button></a>
-                         </div>
+                            <a href="https://github.com/JawadShk/ark-studio" target="_blank"><button type="button" class="btn cv-btn mx-2"><i class="fa-brands fa-github mx-2"></i>GitHub</button></a>
+                            <a href="https://jawadshk.github.io/ark-studio/" target="_blank"><button type="button" class="btn cv-btn mx-2"><i class="fa-sharp fa-solid fa-eye mx-2"></i>Demo</button></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -223,11 +214,11 @@
                 <div class="card-body mx-4">
                     <div class="project-card-view">
                         <img src="images/comforty.png" class="card-img-top img-fluid mt-3 mb-3" alt="...">
-                        <p>Comforty an e-commerce landing page made using HTML,CSS,Bootstrap</p>
+                        <p>Stack web, Responsive landing page made using HTML, CSS, Bootstrap</p>
                         <div class="project-btn mb-4">
                             <a href="https://github.com/JawadShk/Comforty" target="_blank"><button type="button" class="btn cv-btn mx-2"><i class="fa-brands fa-github mx-2"></i>GitHub</button></a>
                             <a href="https://jawadshk.github.io/Comforty/" target="_blank"><button type="button" class="btn cv-btn mx-2"><i class="fa-sharp fa-solid fa-eye mx-2"></i>Demo</button></a>
-                         </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -235,11 +226,11 @@
                 <div class="card-body mx-4">
                     <div class="project-card-view">
                         <img src="images/stopwatch.png" class="card-img-top img-fluid mt-3 mb-3" alt="...">
-                        <p>A simple stopwatch implemented using HTML, CSS, Bootstrap 5 and JavaScript.</p>
+                        <p>Stack web, Responsive landing page made using HTML, CSS, Bootstrap</p>
                         <div class="project-btn mb-4">
                             <a href="https://github.com/JawadShk/stopwatch" target="_blank"><button type="button" class="btn cv-btn mx-2"><i class="fa-brands fa-github mx-2"></i>GitHub</button></a>
                             <a href="https://jawadshk.github.io/stopwatch/" target="_blank"><button type="button" class="btn cv-btn mx-2"><i class="fa-sharp fa-solid fa-eye mx-2"></i>Demo</button></a>
-                         </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -247,43 +238,38 @@
                 <div class="card-body mx-4">
                     <div class="project-card-view">
                         <img src="images/yoga_landing.png" class="card-img-top img-fluid mt-3 mb-3" alt="...">
-                        <p>Yoga landing Page completely Responsive Made Using HTML, CSS, Bootstrap</p>
+                        <p>Stack web, Responsive landing page made using HTML, CSS, Bootstrap</p>
                         <div class="project-btn mb-4">
                             <a href="https://github.com/JawadShk/yoga-landing-page" target="_blank"><button type="button" class="btn cv-btn mx-2"><i class="fa-brands fa-github mx-2"></i>GitHub</button></a>
                             <a href="https://jawadshk.github.io/yoga-landing-page/" target="_blank"><button type="button" class="btn cv-btn mx-2"><i class="fa-sharp fa-solid fa-eye mx-2"></i>Demo</button></a>
-                         </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- projects end  -->
+<!-- !projects end  -->
 
-<!-- resume start  -->
-<section class="resume">
-    <div class="container mt-3 mb-3">
-        <div class="row">
-            <!-- <a role="button" tabindex="0" href="/static/media/Soumyajit_Behera-BIT_MESRA.a1cb5c1907e31e31991a.pdf" target="_blank" class="btn btn-primary" style="max-width: 250px;"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M505.7 661a8 8 0 0 0 12.6 0l112-141.7c4.1-5.2.4-12.9-6.3-12.9h-74.1V168c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v338.3H400c-6.7 0-10.4 7.7-6.3 12.9l112 141.8zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"></path></svg>&nbsp;Download CV</a> -->
-            <div class="col-lg-12 mt-3 mb-3">
-                <div class=" col-lg-12 text-center mb-4">
-                    <a href="">
+<!-- !resume start  -->
+    <section class="resume">
+        <div class="container mt-3 mb-3">
+            <div class="row">
+                <div class="col-lg-12 mt-3 mb-3">
+                    <div class=" col-lg-12 text-center mb-4">
                         <a href="cv.pdf" target="_blank"><button type="button" class="btn cv-btn px-5"><i class="fa-solid fa-download mx-2"></i>Download</button></a>
-                    </a>
                     </div>
                     <div class="col-lg-12 col-11 holder text-center">
                         <img src="images/cv_img.png" alt="cv" class="img-fluid mx-3">
                     </div>
                     <div class="col-lg-12 text-center mt-4">
-                        <a href="">
-                            <a href="cv.pdf" target="_blank"><button type="button" class="btn cv-btn px-5"><i class="fa-solid fa-download mx-2"></i>Download</button></a>
-                        </a>
+                        <a href="cv.pdf" target="_blank"><button type="button" class="btn cv-btn px-5"><i class="fa-solid fa-download mx-2"></i>Download</button></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- resume end  -->
+    <!-- !resume end  -->
     
     <!-- footer start  -->
     <section class="footer text-white">
@@ -293,33 +279,32 @@
                     <p>Design and Developed by Jawad Shaikh</p>
                 </div>
                 <div class="col-lg-2 col-6 mt-3">
-                        <p>Copyright &copy; 2022 JD</p>
-                    </div>
-                    <div class="col-lg-2 col-6 mt-3 footer-icons">
-                        <i class="fa-brands fa-github px-2"></i>
-                        <i class="fa-brands fa-twitter px-2"></i>
-                        <i class="fa-brands fa-linkedin-in px-2"></i>
-                        <i class="fa-brands fa-instagram px-2"></i>
-                    </div>
+                    <p>Copyright &copy; 2022 JD</p>
+                </div>
+                <div class="col-lg-2 col-6 mt-3 footer-icons">
+                    <i class="fa-brands fa-github px-2"></i>
+                    <i class="fa-brands fa-twitter px-2"></i>
+                    <i class="fa-brands fa-linkedin-in px-2"></i>
+                    <i class="fa-brands fa-instagram px-2"></i>
                 </div>
             </div>
         </div>
-      </section>
-      <!-- footer end  -->
-
+    </section>
+      <!-- !footer end  -->
 
       
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
-    <!-- Font Awesome  -->
-    <script src="https://kit.fontawesome.com/53fa1c9b7b.js" crossorigin="anonymous"></script>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <!-- pdf min.js  -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.0.279/build/pdf.min.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.0.279/pdf.min.js" integrity="sha512-QJy1NRNGKQoHmgJ7v+45V2uDbf2me+xFoN9XewaSKkGwlqEHyqLVaLtVm93FzxVCKnYEZLFTI4s6v0oD0FbAlw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- custom JavaScript -->
-    <script src="Js/script.js"></script>
-    
-    <div class="main"></div>
+      <!-- *typing animation  -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+      <!-- *Font Awesome  -->
+      <script src="https://kit.fontawesome.com/53fa1c9b7b.js" crossorigin="anonymous"></script>
+      <!-- *JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+      <!-- pdf min.js  -->
+      <!-- <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.0.279/build/pdf.min.js"></script> -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.0.279/pdf.min.js" integrity="sha512-QJy1NRNGKQoHmgJ7v+45V2uDbf2me+xFoN9XewaSKkGwlqEHyqLVaLtVm93FzxVCKnYEZLFTI4s6v0oD0FbAlw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- *custom JavaScript -->
+      <script src="Js/script.js"></script>
+      <div class="main"></div>
+      
 </body>
 </html>
