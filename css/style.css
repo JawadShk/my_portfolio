@@ -195,6 +195,19 @@ span{
 /* .fixed-top{
   top: 0;  
 } */
+.skill-item:hover{
+    border: 2.2px solid rgba(197,115,230,.883)!important;
+    /* overflow: hidden!important; */
+    -webkit-transform: scale(1.05)!important;
+    transform: scale(1.05)!important;
+}
+.project-card-view:hover {
+    box-shadow: 0 4px 4px 5px rgba(129,72,144,.561)!important;
+    /* overflow: hidden!important; */
+    -webkit-transform: scale(1.02)!important;
+    transform: scale(1.02)!important;
+}
+
 @media only screen and (max-width: 768px){
     .avtar-img{
         margin-left: 75px;
@@ -262,6 +275,9 @@ span{
         margin: 0 3px !important;
     }
     .about {
-        margin-top: 0px !important;
+        margin-top: -65px !important;
+    }
+    .card-body{
+        width: 20rem;
     }
 }
