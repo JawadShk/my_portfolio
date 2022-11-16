@@ -68,6 +68,12 @@ span{
 .nav-item a{
     font-size: 19px;
 }
+.stick {
+    -webkit-backdrop-filter: blur(15px)!important;
+    backdrop-filter: blur(15px)!important;
+    background-color: #1b1a2ea9!important;
+    box-shadow: 0 10px 10px 0 rgba(9,5,29,.171)!important;
+}
 .nav-item {
     display: inline-block;
     padding-bottom: 0.25rem; /* defines the space between text and underline */
@@ -80,6 +86,9 @@ span{
 
 .navbar-toggler{
     border: 2px solid var(--imp-text-color) !important;
+}
+.navbar-toggler:hover {
+    color: #613381;
 }
   
 .nav-item::before {
