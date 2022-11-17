@@ -1,3 +1,4 @@
+// !Typing animation
 var typed = new Typed(".typing",{
     strings:["","Full Stack Web Developer!", "Programmer"],
     typeSpeed:100,
@@ -5,18 +6,7 @@ var typed = new Typed(".typing",{
     loop:true
 })
 
-// window.onscroll = function() {scrollFunction()};
- 
-// function scrollFunction() {
-//   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    
-//     document.getElementById("navbar").classList
-//   } else {
-   
-//     document.getElementById("navbar").style.background = "none";
-//   }
-// }
-
+// !Navbar on scroll
 $(document).ready(function() {
     $(window).scroll(function(){
         if ($(this).scrollTop() > 50) {
@@ -27,13 +17,7 @@ $(document).ready(function() {
     });
   });
 
-const mediaQuery = window.matchMedia('(max-width: 768px)')
-    if (mediaQuery.matches) {
-        $('navbar').addClass('stick');
-    } else {
-        $('#navbar').removeClass('stick');
-    }
-
+// ! Back to top
 var btn = $('#button');
 
 $(window).scroll(function() {
