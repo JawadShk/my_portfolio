@@ -55,10 +55,23 @@ span{
 /* .navbar{
     z-index: 1;
 } */
+.stick {
+    -webkit-backdrop-filter: blur(15px)!important;
+    backdrop-filter: blur(15px)!important;
+    background-color: #1b1a2ea9!important;
+    box-shadow: 0 10px 10px 0 rgba(9,5,29,.171)!important;
+}
 .nav-button{
     background-color: #613381;
     border: 1px solid black;
     color: #ffffff;
+}
+.nav-button:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    box-shadow: 4px 5px 4px 3px rgba(89,4,168,.137)!important;
+    border: 1px solid white;
+    transition: all 0.2s ease;
 }
 .navbar-brand{
     color: #c25aea !important;
@@ -67,12 +80,6 @@ span{
 }
 .nav-item a{
     font-size: 19px;
-}
-.stick {
-    -webkit-backdrop-filter: blur(15px)!important;
-    backdrop-filter: blur(15px)!important;
-    background-color: #1b1a2ea9!important;
-    box-shadow: 0 10px 10px 0 rgba(9,5,29,.171)!important;
 }
 .nav-item {
     display: inline-block;
@@ -246,7 +253,7 @@ span{
     animation: zoom 16s alternate infinite; 
     z-index: 1;
 }
-
+ 
 @keyframes zoom {
     0%{
         transform: scale(1);
@@ -265,9 +272,54 @@ span{
     right: 0;
     bottom: 0; */
 }
+.footer-icons a{
+    color: #fff;
+    /* text-decoration: none; */
+}
+.footer-icons a :hover{
+    color: #fff !important;
+}
+a{
+    text-decoration: none !important;
+}
+
 /* !footer end  */
 
-
+#button {
+  display: inline-block;
+  background-color: #c25aea;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #c770f0;
+}
+#button:active {
+  background-color: #1a1429;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
 /* !media queries */
 @media only screen and (max-width: 768px){
     .nav-item{
